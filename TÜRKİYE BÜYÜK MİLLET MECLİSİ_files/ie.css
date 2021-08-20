@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<script type="text/javascript">
+(function(){
+window["loaderConfig"] = "/TSPD/?type=20";
+})();
+
+</script>
+
+<script type="text/javascript" src="/TSPD/?type=18"></script>
+
+<APM_DO_NOT_TOUCH>
+
+<script type="text/javascript">
+(function(){
+window.OCT=!!window.OCT;try{(function(){(function(){var l={decrypt:function(l){try{return JSON.parse(function(l){l=l.split("l");var O="";for(var Z=0;Z<l.length;++Z)O+=String.fromCharCode(l[Z]);return O}(l))}catch(Z){}}};return l={configuration:l.decrypt("123l34l97l99l116l105l118l101l34l58l34l110l111l34l44l34l100l101l98l117l103l103l105l110l103l34l58l34l110l111l34l44l34l109l111l100l117l108l101l49l34l58l34l101l110l97l98l108l101l100l34l44l34l109l111l100l117l108l101l50l34l58l34l101l110l97l98l108l101l100l34l44l34l109l111l100l117l108l101l51l34l58l34l101l110l97l98l108l101l100l34l44l34l109l111l100l117l108l101l52l34l58l34l101l110l97l98l108l101l100l34l125")}})();
+var zl=49;try{var sl,il,Jl=L(119)?1:0,LL=L(511)?1:0,OL=L(818)?0:1,zL=L(40)?1:0,_L=L(302)?1:0;for(var IL=(L(451),0);IL<il;++IL)Jl+=L(722)?1:2,LL+=L(482)?2:1,OL+=(L(174),2),zL+=L(649)?1:2,_L+=L(732)?1:3;sl=Jl+LL+OL+zL+_L;window.Jj===sl&&(window.Jj=++sl)}catch(JL){window.Jj=sl}var lo=!0;function S(l){var O=arguments.length,Z=[];for(var _=1;_<O;++_)Z.push(arguments[_]-l);return String.fromCharCode.apply(String,Z)}
+function oo(l){var O=93;!l||document[z(O,211,198,208,198,191,198,201,198,209,214,176,209,190,209,194)]&&document[z(O,211,198,208,198,191,198,201,198,209,214,176,209,190,209,194)]!==S(O,211,198,208,198,191,201,194)||(lo=!1);return lo}function s(l,O){l+=O;return l.toString(36)}function z(l){var O=arguments.length,Z=[],_=1;while(_<O)Z[_-1]=arguments[_++]-l;return String.fromCharCode.apply(String,Z)}function Oo(){}oo(window[Oo[s(1086805,zl)]]===Oo);oo(typeof ie9rgb4!==s(1242178186150,zl));
+oo(RegExp("\x3c")[s(1372156,zl)](function(){return"\x3c"})&!RegExp(s(42840,zl))[z(zl,165,150,164,165)](function(){return"'x3'+'d';"}));
+var Zo=window[S(zl,146,165,165,146,148,153,118,167,150,159,165)]||RegExp(z(zl,158,160,147,154,173,146,159,149,163,160,154,149),s(-31,zl))[s(1372156,zl)](window["\x6e\x61vi\x67a\x74\x6f\x72"]["\x75\x73e\x72A\x67\x65\x6et"]),so=+new Date+(L(984)?497839:6E5),io,Io,jo,lO=window[S(zl,164,150,165,133,154,158,150,160,166,165)],LO=Zo?L(519)?3E4:32880:L(429)?6E3:4488;
+document[S(zl,146,149,149,118,167,150,159,165,125,154,164,165,150,159,150,163)]&&document[z(zl,146,149,149,118,167,150,159,165,125,154,164,165,150,159,150,163)](S(zl,167,154,164,154,147,154,157,154,165,170,148,153,146,159,152,150),function(l){var O=92;document[S(O,210,197,207,197,190,197,200,197,208,213,175,208,189,208,193)]&&(document[S(O,210,197,207,197,190,197,200,197,208,213,175,208,189,208,193)]===s(1058781891,O)&&l[S(O,197,207,176,206,209,207,208,193,192)]?jo=!0:document[S(O,210,197,207,197,
+190,197,200,197,208,213,175,208,189,208,193)]===s(68616527574,O)&&(io=+new Date,jo=!1,oO()))});function oO(){if(!document[S(89,202,206,190,203,210,172,190,197,190,188,205,200,203)])return!0;var l=+new Date;if(l>so&&(L(893)?781741:6E5)>l-io)return oo(!1);var O=oo(Io&&!jo&&io+LO<l);io=l;Io||(Io=!0,lO(function(){Io=!1},L(744)?0:1));return O}oO();var zO=[L(221)?17795081:25026721,L(888)?2147483647:27611931586,L(644)?1798568151:1558153217];
+function ZO(l){var O=33;l=typeof l===S(O,148,149,147,138,143,136)?l:l[S(O,149,144,116,149,147,138,143,136)](L(928)?44:36);var Z=window[l];if(!Z||!Z[z(O,149,144,116,149,147,138,143,136)])return;var _=""+Z;window[l]=function(l,O){Io=!1;return Z(l,O)};window[l][S(O,149,144,116,149,147,138,143,136)]=function(){return _}}for(var sO=(L(154),0);sO<zO[S(zl,157,150,159,152,165,153)];++sO)ZO(zO[sO]);oo(!1!==window[S(zl,128,116,133)]);window.LI=window.LI||{};window.LI.I_S="082d8bd4f516e800a3ea5e71c3249a7793a2c2aae4a9c0281ffd03b79dfff4831903e592c29afed0fd560fefd958ad5f4982682cf2c01c5d7f8cc03ed8b442197df6611e079b120636ea8ade3a56f6dbc8432dee7e44f9b54e5153b9adf8ecadf7aeea573206f8a8981bc9f26050c75664f61477aea7793376b2c396fcf3fb5f77aac8910b1e4d4bf1d08d3f3edf2a555e3ce493a875a3a44d4d7186bdaa00797a81a0ab6ae8afe0efc1aa30deb7d1f9a7e81e7f8ade2e33f9f106599259a2f6bf9b717d8913b6f86749b1a0ee196cb328d75627b9ea09f574fb094addb1c8c7b7d2b8902b3eb7af6e9b6a6721a29e1c";
+function SO(l){var O=+new Date,Z;!document[S(2,115,119,103,116,123,85,103,110,103,101,118,113,116,67,110,110)]||O>so&&(L(492)?6E5:367125)>O-io?Z=oo(!1):(Z=oo(Io&&!jo&&io+LO<O),io=O,Io||(Io=!0,lO(function(){Io=!1},L(722)?0:1)));return!(arguments[l]^Z)}function L(l){return 572>l}(function jO(O){O&&"number"!==typeof O||("number"!==typeof O&&(O=1E3),O=Math.max(O,1),setInterval(function(){jO(O-10)},O))})(!0);})();}catch(x){}finally{ie9rgb4=void(0);};function ie9rgb4(a,b){return a>>b>>0};
+
+})();
+
+</script>
+</APM_DO_NOT_TOUCH>
+
+<script type="text/javascript" src="/TSPD/08ffcef486ab20001e47f48e4175292c76f3751169dd6fa03ad5c964932af0aa022d0c5c2ea6ad1f?type=17"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1254">
+<link rel="shortcut icon" href="https://www.tbmm.gov.tr/favicon.ico">
+
+<meta name="Language" content="Tr">
+<meta name="Copyright" content="Türkiye Büyük Millet Meclisi Bilgi Ýþlem Baþkanlýðý ©2012">
+<meta name="Author" content="Tasarým: Emre Baydur">
+<meta name="description" content="Türkiye Büyük Millet Meclisi Resmi Ýnternet Sitesi">
+<meta name="keywords" content="TBMM, Türkiye Büyük Millet Meclisi, parlamento, parlemento, meclis, yasama, denetim, milletvekili, kanun tasarýsý, kanun teklifi, tbmm kararý, meclis kararý, kanun hükmünde kararname, khk, gensoru, yazýlý soru, sözlü soru, meclis araþtýrmasý, meclis soruþturmasý, anayasa, TBMM Genel Sekreterliði, Genel Sekreterlik">
+<meta name="keywords" content="TGNA, GNAT, Turkish Parliament, Grand National Assembly of Turkey, legislation, turkey, turkish, ">
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="ROBOTS" content="INDEX, FOLLOW">
+<title>TÜRKÝYE BÜYÜK MÝLLET MECLÝSÝ</title>
+<link rel="stylesheet" type="text/css" href="./bakim_files/reset.css" media="all">
+<link rel="stylesheet" type="text/css" href="./bakim_files/text.css" media="all">
+<link rel="stylesheet" type="text/css" href="./bakim_files/960.css" media="all">
+<link rel="stylesheet" type="text/css" href="./bakim_files/layout.css" media="all">
+<link rel="stylesheet" type="text/css" href="./bakim_files/nav.css" media="all">
+<link rel="stylesheet" type="text/css" href="./bakim_files/jquery-ui-1.8.23.custom.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/ie6.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/ie.css" media="all" />
+<script type="text/javascript" src="./bakim_files/jquery-1.8.1.min.js"></script>
+<script type="text/javascript" src="./bakim_files/jquery-ui-1.8.23.custom.min.js"></script>
+<script type="text/javascript" src="./bakim_files/jquery-fluid16.js"></script>
+<script type="text/javascript" src="./bakim_files/jcarousellite_1.0.1c4.js"></script>
+<script type="text/javascript" src="./bakim_files/jquery.jfontsize-1.0.js"></script>
+<script type="text/javascript">
+$(function() {
+  $(".newsticker-jcarousellite").jCarouselLite({
+    vertical: true,
+    hoverPause:true,
+    visible: 3,
+    auto:3000,
+    speed:1000
+  });
+});
+</script>
+
+<link rel="stylesheet" type="text/css" href="./bakim_files/jquery.popeye.css" media="all">
+<link rel="stylesheet" type="text/css" href="./bakim_files/jquery.popeye.style.css" media="all">
+<script type="text/javascript" src="./bakim_files/jquery.popeye-2.1.min.js"></script><style type="text/css"> .ppy-imglist { position: absolute; top: -1000em; left: -1000em; } </style>
+
+<link rel="stylesheet" type="text/css" href="./bakim_files/mv_ozgecmis.css" media="all">
+
+<script type="text/javascript" src="./bakim_files/ddaccordion.js"></script>
+<script type="text/javascript">
+ddaccordion.init({
+  headerclass: "submenuheader", //Shared CSS class name of headers group
+  contentclass: "submenu", //Shared CSS class name of contents group
+  revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+  mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+  collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+  defaultexpanded: [], //index of content(s) open by default [index1, index2, etc] [] denotes no content
+  onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+  animatedefault: false, //Should contents open by default be animated into view?
+  persiststate: true, //persist state of opened contents within browser session?
+  toggleclass: ["", ""], //Two CSS classes to be applied to the header when its collapsed and expanded, respectively ["class1", "class2"]
+  togglehtml: ["suffix", "", ""], //Additional HTML added to the header when its collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+  animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+  oninit:function(headers, expandedindices){ //custom code to run when headers have initalized
+    //do nothing
+  },
+  onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+    //do nothing
+  }
+})
+</script><style type="text/css">
+.submenu{display: none}
+</style>
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+<script>
+  function a1() {
+    $("#aciklama").text("Kurumsal Facebook Sayfasý");
+  };
+  function a2() {
+    $("#aciklama").text("Kurumsal Twitter Sayfasý");
+  };
+  function a3() {
+    $("#aciklama").text("TBMM RSS Akýþlarý");
+  };
+  function a4() {
+    $("#aciklama").text("Günlük Haber Aboneliði");
+  };
+  function a5() {
+    $("#aciklama").text("Genel Kurul Facebook Sayfasý");
+  };
+  function a6() {
+    $("#aciklama").text("Genel Kurul Twitter Sayfasý");
+  };
+  function a7() {
+    $("#aciklama").text("Web Yöneticisine Mesaj");
+  };
+  function a8() {
+    $("#aciklama").text("Sosyal Aðlarda TBMM");
+  };
+    
+</script>
+
+<script>
+    $(function() {
+        $( "#languages" ).dialog({
+           autoOpen: false
+        });
+        $( "#open-languages" )
+            .click(function() {
+                $( "#languages" ).dialog( "open" );
+            });
+            
+        $(".fontsizer").jfontsize();
+    });
+    </script>
+
+</head>
+<body>
+<div class="container_16">
+  <div class="grid_16"><img src="./bakim_files/header.jpg" width="940" height="100" alt="Türkiye Büyük Millet Meclisi"></div>
+  <div class="clear"></div>  
+  <div class="grid_16"><br>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p align="center" style="font-size:15px;color:#8f0c1c;"><strong>Bulunamadý</strong></p>
+<p>&nbsp;</p>
+<p align="center" style="font-size:15px;color:#666;"><strong>Ulaþmaya çalýþtýðýnýz adres bulunamadý. Adres veya dosya yolunun doðru olduðundan emin olunuz. </strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+  <div class="clear"></div>
+  <div class="grid_16" id="site_info">
+    <div class="box"><img src="./bakim_files/eskiz.png" width="267" height="78"></div>
+  </div>
+  <div class="clear"></div>   
+</div>
+
+
+          
+</body></html>

@@ -1,0 +1,201 @@
+@charset "utf-8";
+/* CSS Document */
+
+.milletvekilleri_basligi {
+	font:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#3d5b92;
+	text-align:left;
+	border-bottom:dashed 1px #9D9D9D;
+	margin-bottom:40px;
+}
+
+.iletisim_bilgileri {
+	width:660px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.iletisim_bilgileri #iletisim_bilgi table, .iletisim_bilgileri #iletisim_bilgi tr, .iletisim_bilgileri #iletisim_bilgi td {
+	margin:0px;
+	padding:0px;
+	background:#ffffff;
+	border:0;
+}
+
+.iletisim_bilgileri #fotograf_alani {
+	width:166px;
+	height:208px;
+	float:left;
+	background-image:url(../images/mv_ozgecmis/fotograf_bg.jpg);
+	background-repeat:no-repeat;
+}
+.iletisim_bilgileri #fotograf_alani img {
+	width:126px;
+	height:168px;
+	margin:20px;
+}
+.iletisim_bilgileri #bilgi_alani {
+	margin-left:20px;
+	margin-top:15px;
+	float:left;
+	width:474px;
+}
+.iletisim_bilgileri #mv_isim_bilgileri {
+	border-bottom:solid 1px #3d5b92;
+	width:474px;
+	height:25px;
+}
+.iletisim_bilgileri #mv_isim {
+	color: #3d5b92;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+}
+.iletisim_bilgileri #personel_isim_bilgileri {
+	border-bottom:solid 1px #900;
+	width:474px;
+	height:25px;
+}
+.iletisim_bilgileri #personel_isim {
+	color:#900;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+}
+.iletisim_bilgileri #mv_ili {
+	float:right;
+	color: #3d5b92;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	margin-top:8px;
+}
+.iletisim_bilgileri #mv_gorev {
+	color:#685f5f;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	margin-top:4px;
+}
+.iletisim_bilgileri #iletisim_bilgi {
+	width:400px;
+	float:left;
+	height:138px;	
+}
+.iletisim_bilgileri #iletisim_bilgi table {
+	margin-top:15px;
+
+}
+.iletisim_bilgileri #iletisim_bilgi span {
+	color:#0b1f4b;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;		
+}
+.iletisim_bilgileri #iletisim_bilgi td {
+	color:#685f5f;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;	
+	vertical-align:top;
+}
+.iletisim_bilgileri a {
+	color:#069;
+	border:0;
+}
+
+.iletisim_bilgileri a:hover {
+	color:#333;
+	text-decoration:none;
+}
+
+.iletisim_bilgileri #parti_logo {
+	float:right;
+}
+.ozgecmis_bilgileri {
+	background:#f2f2f2;
+	display:block;
+	border:solid 1px #c7bbbb;
+	margin-top:20px;
+}
+.ozgecmis_bilgileri #ozgecmis_baslik {
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#6c2e2e;
+	border-bottom:solid 1px #6c2e2e;
+	width:600px;
+	margin:20px;
+	height:25px;
+}
+.ozgecmis_bilgileri #ozgecmis_icerik {
+	color:#685f5f;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;	
+	width:600px;
+	margin:20px;
+	text-align:justify;
+}
+
+.prs_ozgecmis_bilgileri {
+	background:#f2f2f2;
+	display:block;
+	border:solid 1px #369;
+	margin-top:20px;
+	float:left;
+}
+.prs_ozgecmis_bilgileri #ozgecmis_baslik {
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#369;
+	border-bottom:solid 1px #369;
+	width:600px;
+	margin:20px;
+	height:25px;
+}
+.prs_ozgecmis_bilgileri #ozgecmis_icerik {
+	color:#685f5f;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;	
+	width:600px;
+	margin:20px;
+	text-align:justify;
+}
+
+.yasama_faaliyetleri {
+	background:#e6eccd;
+	display:block;
+	border:solid 1px #b9bdc4;
+	margin-top:20px;
+}
+.yasama_faaliyetleri #yasama_baslik {
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#4f5534;
+	border-bottom:solid 1px #4f5534;
+	width:600px;
+	margin:20px;
+	height:25px;
+}
+.yasama_faaliyetleri #yasama_icerik li {
+	list-style-image:url(../images/mv_ozgecmis/list_icon.gif);
+}
+.yasama_faaliyetleri #yasama_icerik li a {
+	color:#685f5f;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;	
+	text-align:justify;
+}
+#detay_sayfa {
+	width:474px;
+	height:16px;
+	border-bottom:solid 1px #3d5b92;
+	float:left;
+}
+#detay_sayfa span {
+	float:right;
+}
+#detay_sayfa span a {
+	color:#069;
+}
+#detay_sayfa span a:hover {
+	color:#333;
+	text-decoration:none;
+}
