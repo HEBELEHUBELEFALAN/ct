@@ -1,0 +1,1707 @@
+/*
+-----------------------------------------------
+Grey Box Method - Layout CSS
+----------------------------------------------- */
+
+body {
+	background: #eee;
+	color: #333;
+	font-size: 12px;
+	padding: 0 0 40px;
+	background-image:url(https://www.tbmm.gov.tr/v2_img/main_bg.jpg);
+	background-repeat:repeat-x;
+	font-weight:normal;
+}
+
+
+/* anchors
+----------------------------------------------- */
+a {
+	color: #770c0c;
+	font-weight:bold;
+	text-decoration: none;
+}
+a:hover {
+	color:#333;
+}
+
+
+/* 960 grid system container background
+----------------------------------------------- */
+.container_12,
+.container_16 {
+	background:#fff;
+}
+
+
+/* headings
+----------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {line-height:1.2em; margin-bottom:.3em;}
+h2 {margin-top:1em;}
+h5 {font-size:1.2em;}
+h6 {font-size:1em; text-transform:uppercase;}
+
+
+h1 a {
+	font-weight:normal;
+}
+
+
+/* branding
+----------------------------------------------- */
+h1#branding {
+	font-weight:normal;
+	font-size:3em;
+	text-align:left;
+	background:#aaa;
+	padding:.7em 1em;
+	margin-bottom:0;
+}
+
+
+/* page heading
+----------------------------------------------- */
+h2#page-heading {
+	font-weight:normal;
+	padding:.5em;
+	margin:0 0 10px 0;
+	border-bottom:1px solid #ccc;
+}
+
+
+/* boxes
+----------------------------------------------- */
+.box {
+	background:#f5f6f8;
+	margin-bottom:20px;
+	padding:10px 10px 1px 10px;
+}
+.box h2 {
+	font-size:1em;
+	font-weight:bold;
+	color:#fff;
+	background:#0f2b51;
+	margin:-10px -10px 0 -10px;
+	padding:6px 12px;
+}
+.box h2 a,
+.box h2 a.visible {
+	color:#fff;
+	background:#8F0C1C url("https://www.tbmm.gov.tr/v2_img/switch_minus.gif") 97% 50% no-repeat;
+	display:block;
+	padding:6px 12px;
+	margin:-6px -12px;
+	border:none;
+	font-weight:bold;
+}
+.grid_4 .box h2 a {
+	background-position: 97% 50%;
+}
+.grid_5 .box h2 a {
+	background-position: 98% 50%;
+}
+.grid_12 .box h2 a {
+	background-position: 99% 50%;
+}
+
+
+.box h2 a.hidden,
+.box h2 a.hidden:hover {
+	background-image: url("https://www.tbmm.gov.tr/v2_img/switch_plus.gif");
+}
+.box h2 a:hover {
+	background-color:#999;
+}
+.block {
+	padding-top:10px;
+}
+div.menu {
+	padding:0;
+}
+div.menu h2 {
+	margin:0;
+}
+div.menu .block {
+	padding-top:0;
+}
+
+
+/* paragraphs, quotes and lists
+----------------------------------------------- */
+p {
+	margin-bottom:1em;
+}
+blockquote {
+	font-family: Georgia, 'Times New Roman', serif;
+	font-size:1.2em;
+	padding-left:1em;
+	border-left:4px solid #ccc;
+}
+blockquote cite {
+	font-size:.9em;
+}
+ul, ol {
+	padding-top:0;
+}
+
+
+/* menus
+----------------------------------------------- */
+ul.menu {
+	list-style:none;
+	border-top:1px solid #bbb;
+}
+ul.menu li {
+	margin:0;
+}
+ul.menu li a {
+	display:block;
+	padding:4px 10px;
+	border-bottom:1px solid #ccc;
+}
+ul.menu li a:hover {
+	background:#eee;
+}
+ul.menu li a:active {
+	background:#ccc;
+}
+
+
+/* submenus
+----------------------------------------------- */
+ul.menu ul {
+	list-style:none;
+	margin:0;
+}
+ul.menu ul li a {
+	padding-left:30px;
+}
+
+
+/* section menus
+----------------------------------------------- */
+ul.section {
+	border-top:0;
+	margin-bottom:0;
+}
+ul.section li {
+	text-transform:uppercase;
+}
+ul.section li a {
+	background:#bbb;
+}
+ul.section li a:hover {
+	background:#aaa;
+}
+ul.section li a:active {
+	color:#fff;
+	background:#666;
+}
+ul.section li li a {
+	background:#ddd;
+	border-bottom:1px solid #eee;
+}
+ul.section li li a:hover {
+	background:#ccc;
+}
+ul.section li li a:active {
+	color:#000;
+	background:#fff;
+}
+ul.section ul li {
+	text-transform:none;
+}
+ul.section ul.current li a {
+	background:#eee;
+	border-bottom:1px solid #fff;
+}
+ul.section ul.current li a:hover {
+	background:#ddd;
+}
+ul.section ul.current li a:active {
+	background:#fff;
+}
+ul.section li a.current {
+	color:#900;
+	background:#D5D2D2;
+}
+ul.section li a.current:hover {
+	background:#555;
+}
+ul.section li a.current:active {
+	background:#444;
+}
+ul.section li a.active {
+	background:#fff;
+	cursor:default;
+}
+ul.section li.current > a.active,
+ul.section li.current > a.active:hover {
+	color:#fff;
+	background:#666;
+	cursor:default;
+}
+
+
+/* tablo stilleri
+----------------------------------------------- */
+
+table {
+	width:100%;
+	border:1px solid #bbb;
+	margin-bottom:10px;
+}
+col.colC {
+	width:8em;
+}
+th, td {
+	padding:.2em 1em;
+	text-align:left;
+}
+thead th {
+	border-bottom:2px solid #888;
+	background:#bbb;
+	padding:.4em 1em .2em;
+}
+thead th.table-head {
+	font-size:1em;
+	font-weight:normal;
+	text-transform:uppercase;
+	color:#fff;
+	background:#555;
+	border:1px solid #555;
+}
+tbody th,
+tbody td {
+	border-top:1px solid #bbb;
+	border-bottom:1px solid #bbb;
+	background:#eee;
+}
+tbody tr.odd th,
+tbody tr.odd td {
+	background:#fff;
+}
+tfoot th,
+tfoot td {
+	border-top:2px solid #666;
+	background:#eee;
+}
+tfoot tr.total th,
+tfoot tr.total td {
+	border-top:6px double #666;
+}
+tfoot tr.total th {
+	text-transform:uppercase;
+}
+th.currency,
+td.currency {
+	text-align:right;
+}
+
+
+/* forms
+----------------------------------------------- */
+form {
+	overflow:hidden;
+}
+fieldset {
+	border:1px solid #bbb;
+	padding:10px;
+	position:relative;
+	background:#e9e9e9;
+	margin-bottom:10px;
+}
+legend {
+	font-size:1.1em;
+	padding:.4em .8em;
+	background:#fff;
+	border:1px solid #bbb;
+}
+fieldset.login p {
+	margin-bottom:1em;
+	margin-top:0pt;
+}
+fieldset p label {
+	width:98%;
+}
+fieldset p input {
+	width:98%;
+}
+fieldset p select {
+	width:99%;
+}
+fieldset.login p label {
+	float:left;
+	line-height:2em;
+	margin-right:3%;
+	text-align:right;
+	width:32%;
+}
+fieldset.login p input {
+	width:60%;
+}
+fieldset.login input.button {
+	margin-left:35%;
+}
+form p.notice {
+	font-weight:bold;
+}
+input.search.text {
+	width:66%;
+}
+input.search.button {
+	width:28%;
+	margin-left:2%;
+}
+
+
+/* articles
+----------------------------------------------- */
+.articles {
+	padding:0;
+}
+.articles h2 {
+	margin:0;
+}
+#articles {
+	padding-top:0;
+}
+.article {
+	border-top:1px solid #666;
+	padding-top:.5em;
+}
+.box .article {
+	border-top:3px solid #fff;
+	padding:13px 10px 0 10px;
+}
+.article h2 {
+	font-size:2em;
+	font-weight:normal;
+	text-transform:none;
+	color:#333;
+	background:transparent;
+	padding:0;
+	margin:0;
+	border:none;
+}
+.article h3 {
+	margin-bottom:.2em;
+	font-size:1.6em;
+}
+.box .first {
+	border-top:none;
+}
+.article h4 {
+	font-size:1.2em;
+	text-transform:uppercase;
+	margin-bottom:.5em;
+}
+.article a.image {
+	float:left; 
+	margin:3px 10px 3px 0; 
+	padding:4px;
+	border:1px solid #bbb;
+	background:#fff;
+}
+.article a.image:hover {
+	border:1px solid #666;
+}
+.article a.image img {
+	float:left; 
+}
+.article p.meta {
+	color:#666;
+	border-top:1px dotted #999;
+	border-bottom:1px dotted #999;
+	padding:.3em 0;
+	margin-bottom:.8em;
+}
+
+
+/* site information
+----------------------------------------------- */
+#site_info .box {
+	color:#ccc;
+	background:#f3f2f0;
+	margin-bottom:10px;
+	text-align:center;
+}
+#site_info a {
+	color:#fff;
+}
+#site_info a:hover {
+	color:#000;
+}
+
+
+/* AJAX sliding shelf
+----------------------------------------------- */
+#loading {float:right; margin-right:14px; margin-top:-2px;}
+.block {
+	padding-bottom:1px;
+}
+
+
+/* Accordian
+----------------------------------------------- */
+.toggler {
+	color: #900;
+	margin: 0;
+	padding: 2px 5px;
+	background: #eee;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-top: 1px solid #f5f5f5;
+	border-left: 1px solid #f5f5f5;
+	font-size:1.1em;
+	font-weight: normal;
+}
+.element h4 {
+	margin: 0;
+	padding:4px;
+	line-height:1.2em;
+}
+.element p {
+	margin: 0;
+	padding: 4px;
+}
+.float-right {
+	padding:10px 20px;
+	float:right;
+}
+
+#accordian-block {
+	padding-bottom:10px;
+}
+
+
+/* Mootools Kwicks
+----------------------------------------------- */
+#kwick-box { 
+	padding:0;
+	overflow:hidden;
+}
+#kwick-box h2 { 
+	margin:0;
+}
+#kwick {
+	position: relative;
+}
+#kwick .kwicks {
+	display: block;
+	background: #999;
+	height: 120px;
+	list-style:none;
+	margin:0;
+	overflow:hidden;
+}
+#kwick li {
+	float: left;
+	margin:0;
+	padding:0;
+}
+#kwick .kwick {
+	display: block;
+	cursor: pointer;
+	overflow: hidden;
+	height: 100px;
+	width: 215px;
+	padding: 10px;
+	background: #fff;
+}
+#kwick .kwick span {
+	color:#fff;
+}
+#kwick .one {
+	background: #666;
+}
+#kwick .two {
+	background: #777;
+}
+#kwick .three {
+	background: #888;
+}
+#kwick .four {
+	background: #999;
+}
+
+
+/* Güncel Blok stilleri */
+#guncel {
+	margin-top:4px;
+	background:#e2d9c3;
+	height:240px;
+}
+
+.guncel_son_on_link {
+	color:#930 !important;
+}
+
+
+/* Meclis Haber Blok stilleri */ 
+#meclishaberbox {
+	margin-top:4px;
+}
+#meclishaber1,#meclishaber2,#meclishaber3 {
+	height:140px;
+}
+#tbmmgaleri {
+	height:250px;
+}
+
+#aramabox {
+	margin-top:4px;
+}
+
+.fotografcercevesi {
+	padding:2px;
+	border:1px solid #999;
+	margin-top:4px;
+}
+.duyurularliste li{
+	list-style-type:none;
+	list-style-position:outside;
+	margin-left:0px;
+}
+
+/* Footer altı linkleri */
+.footer_text {
+	text-align:center;
+	font-size:12px;
+	color:#8a7968;
+	font-weight:bold;
+}
+#tbmmbugundiv {
+	width:200px;
+	height:240px;
+	float:right;
+}
+#tbmmbugun {
+	float:right;
+	margin-top:10px;
+	width:200px;
+	margin-right:10px;
+}
+
+#tbmmbugunlink {
+	width:195px;
+	height:17px;
+	float:right;
+	margin-top:32px;
+	margin-right:8px;
+}
+
+/* tbmmde bugun stilleri */
+.newsticker-jcarousellite {
+	height:165px !important;    
+}
+.newsticker-jcarousellite ul li{ width:200px; list-style:none; display:block; padding-bottom:1px; margin-bottom:5px; height:165px; margin-left:0; }
+.newsticker-jcarousellite { width:200px; }
+
+.duyurukategori {
+	font-size: 12px;
+	border-bottom:1px dotted #039;
+	color:#039;
+	font-weight:bold;
+	text-align:left;
+}
+
+#tbmmbugun .duyurukategori {
+	margin-top: 10px;
+}
+
+
+.duyurubaslik {
+	font-size:11px;
+	color:#900;
+	font-weight:bold;
+	
+}
+.duyurutarih {
+	font-size:11px;
+	color:#666;
+}
+.duyuruyer {
+	font-size:11px;
+	color:#666;
+}
+.duyuruaciklama {
+	height:80px;
+	overflow:hidden;
+}
+#tbmm_takvimi {
+	text-align:right;
+}
+#tbmm_takvimi a {
+	margin-right:10px;
+	color:#AFA04E;
+	font-size:11px;
+	font-weight:bold;
+}
+#tbmm_takvimi a:hover {
+	color:#900;
+}
+
+.gsc-search-box tr td {
+	padding:0;
+	border:0;
+}
+
+#new_content {
+	min-height:500px;
+	overflow:hidden;
+}
+#new_content td {
+	vertical-align:middle;
+}
+
+.rehbertablo {
+	width:680px !important;
+}
+
+.rehbertablo td, .rehbertablo th {
+	margin:4px;
+	padding:4px;
+}
+
+
+
+
+/* Eski Stiller */
+
+@charset "utf-8";
+.normalText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+.Baslik {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000066;
+}
+.AltBaslik {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #666666;
+}
+.AltKonuBaslikB16Siyah {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+}
+.AltKonuBaslikB16Kirmizi {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FF0000;
+}
+.AltKonuBaslikB16Gri {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #666666;
+}
+.AltKonuBaslikB16Laci {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000066;
+}
+.AltKonuBaslikB14Kirmizi {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FF0000;
+}
+.AltKonuBaslikB14Siyah {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+.AltKonuBaslikB14Laci {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000066;
+}
+.AltKonuBaslikB14Gri {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666666;
+}
+.AltKonuBaslikB14Kahve {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #996600;
+}
+.AltKonuBaslikB14Yesil {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #339900;
+}
+.AltKonuBaslikB14Bordo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #990066;
+}
+.AltKonuBaslikB12Ad {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+.AltKonuBaslikB12Gri {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+.AltKonuBaslikB12Kirmizi {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF0000;
+}
+.AltKonuBaslikB12GriB {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #555555;
+}
+
+.AltKonuBaslikB12BlackB {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+}
+
+.baslik1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000066;
+}
+.baslik2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000066;
+}
+.baslik3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000066;
+}
+.baslikAlt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000066;
+} 
+/* Eski Stiller */
+
+
+/* Eski Komisyon Stilleri */
+
+.baslik1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000066;
+}
+.baslik2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000066;
+}
+.baslik3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000066;
+}
+.baslikAlt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000066;
+} 
+.ana {
+	width: 960px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+.ustbanner {
+	height: 66px;
+	width: 960px;
+	margin-top: 0px;
+}
+.resimBanner {
+	height: 190px;
+	width: 960px;
+	margin-top: 0px;
+}
+#UstMenu {
+	background-image: url(../images/ustMenu_back.gif);
+	background-repeat: repeat-x;
+	height: 72px;
+	width: 960px;
+	margin-top: 0px;
+	float: left;
+}
+#slidebar {
+	color: #CCCCCC;
+	text-decoration: none;
+	float: left;
+	width: 230px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	line-height: 6px;
+}
+#slidebarnav {
+	margin-top: 12px;
+}
+#slidebarnav a {
+	width:180px;
+	display:block;
+	clear:both;
+	color:#000066;
+	text-decoration:none;
+	font-size:12px;
+	font-weight:bold;
+	text-align:left;
+	padding-left: 16px;
+	height: 8px;
+	padding-top: 6px;
+	padding-bottom: 2px;
+	text-transform: uppercase;
+  }
+#slidebarnav a, #slidebarnav a.active {
+	text-decoration:none;
+	color:#8d817b;
+}
+#slidebarnav a:hover {
+	text-decoration:none;
+	color:#000066;
+}
+/* ---=UST MENU Begin---*/
+#ustmenunav{
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 1px;
+	padding-right: 0;
+	padding-bottom: 1px;
+	height: 20px;
+}
+#ustmenunav lu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#ustmenunav li {
+	display: inline;
+}
+#ustmenunav a {
+	display: block;
+	float: right;
+	padding: 4px 8px 4px 8px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-align: right;
+	margin-top: 0;
+	margin-right: 0px;
+	margin-bottom: 0;
+	margin-left: 0;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #999999;
+}
+#ustmenunav a:hover {
+	color: #CC0000;
+}
+
+#ustmenunav .current_page_item a {
+	color: #CC0000;
+}	
+
+/* ---=ANA MENU Begin---*/
+.solidblockmenu {
+	width: 960px;
+	height: 34px;
+	background-color: black;
+	background-image: url(../images/blockdefault.gif);
+	background-repeat: repeat-x;
+	background-position: center center;
+	float: left;
+}
+.solidblockmenu ul{
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 960px;
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+	height: 34px;
+}
+
+.solidblockmenu li{
+display: inline;
+}
+
+.solidblockmenu li a{
+	float: left;
+	color: #D7D2B1;
+	text-decoration: none;
+	padding-top: 9px;
+	padding-right: 17px;
+	padding-bottom: 9px;
+	padding-left: 1.57em;
+}
+
+.solidblockmenu li a:visited{
+color: white;
+}
+
+.solidblockmenu li a:hover, .solidblockmenu li a.current{
+color: white;
+background: transparent url(../images/blockactive.gif) center center repeat-x;
+}
+
+.tabcontainer{
+	clear: left;
+	width:960px; /*width of 2nd level sub menus*/
+	height:1.5em; /*height of 2nd level sub menus. Set to largest's sub menu's height to avoid jittering.*/
+	background-color: #e0001b;
+	margin-top: 0px;
+	padding-top: 2px;
+}
+.tabcontainer a {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 12px;
+	color: #FFFFFF;
+	padding-right: 20px;
+	padding-left: 1.6em;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+	vertical-align: 4%;
+}
+.tabcontainer a:hover {
+	color: #CCCCCC;
+}
+*:first-child+html .ieclass{ /*IE7 hack to remove gap between menu and sub contents*/
+margin-top: 0px;
+}
+
+* html .ieclass{ /*IE6 and below hack to remove gap between menu and sub contents*/
+	margin-top: 0px;
+}
+
+.tabcontent{
+	display:none;
+	text-decoration: none;
+}
+
+/* --#ANA MENU END---*/
+.logo {
+	float: left;
+	width: 350px;
+	padding-left: 20px;
+	height: 60px;
+	padding-top: 3px;
+}
+.ustsol {
+	float: left;
+	height: 66px;
+	width: 388px;
+}
+.ustmenu {
+	text-align: right;
+	height: 30px;
+}
+/* ---=ALT BOLUM BEGIN---*/
+.footerAlt {
+	background-image: url(../images/footerBack.gif);
+	background-repeat: repeat-y;
+	float: left;
+	height: 70px;
+	width: 960px;
+	margin-top: 2px;
+}
+/* #ALT BOLUM END */
+
+.footerOrtaLogo {
+	float: left;
+	width: 212px;
+	margin-top: 5px;
+}
+.footerSol {
+	float: left;
+	height: 70px;
+	width: 360px;
+	padding-left: 20px;
+}
+.footerSag {
+	float: left;
+	height: 35px;
+	width: 365px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: right;
+	padding-top: 10px;
+}
+.footerSolText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+	width: 294px;
+	padding-top: 10px;
+	padding-left: 7px;
+}
+.anaORTAsayfaUST {
+	width: 729px;
+	margin-top: 0px;
+	height: 66px;
+	float: left;
+}
+.anaORTAsayfaUSTtext {
+	width: 665px;
+	padding-top: 5px;
+	font-family: Georgia;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000066;
+	text-decoration: none;
+	padding-bottom: 5px;
+	float: left;
+	padding-right: 14px;
+	padding-left: 20px;
+}
+.anaORTAsayfaUSTtext a {
+	color: #000066;
+	text-decoration: none;
+}
+.anaORTAsayfaUSTtext a:hover {
+	color: #993300;
+	text-decoration: none;
+}
+.anaORTAsayfaUSTgeri {
+	width: 30px;
+	float: left;
+	height: 15px;
+	margin-top: 8px;
+}
+.anaORTAsayfaUSTgeri a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #990000;
+	text-decoration: none;
+}
+.anaORTAsayfaUSTgeri a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/* komisyon ve global css aynı anda kullanıldıkları için */
+.anaORTAsayfaUSTtext2 {
+	width: 665px;
+	padding-top: 5px;
+	font-family: Georgia;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000066;
+	text-decoration: none;
+	padding-bottom: 5px;
+	float: left;
+	padding-right: 14px;
+	padding-left: 20px;
+}
+.anaORTAsayfaUSTtext2 a {
+	color: #000066;
+	text-decoration: none;
+}
+.anaORTAsayfaUSTtext2 a:hover {
+	color: #993300;
+	text-decoration: none;
+}
+.anaORTAsayfaUSTgeri2 {
+	width: 30px;
+	float: left;
+	height: 15px;
+	margin-top: 8px;
+}
+.anaORTAsayfaUSTgeri2 a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #990000;
+	text-decoration: none;
+}
+.anaORTAsayfaUSTgeri2 a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/* komisyon ve global css aynı anda kullanıldıkları için */
+.anaORTAsayfa {
+	width: 690px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 0px;
+	font-size: 12px;
+	margin-left: 20px;
+	text-decoration : none;
+	float: left;
+	text-align: justify;
+}
+.anaORTAsayfa ul{
+	text-decoration: none;
+}
+.anaORTAsayfa li{
+	/* height: 22px; */
+	text-decoration: none
+}
+.anaORTAsayfa a{
+	color: #990000;
+	text-decoration: none;
+}
+.anaORTAsayfa a:hover{
+	color: #000000;
+	text-decoration: underline;
+	/*font-weight: bold;*/
+}
+
+.anaORTAsayfa li a{
+	color: #990000;
+	text-decoration: none;
+	font-weight: bold;
+}
+.anaORTAsayfa li a:hover{
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+.tableBackresim {
+	background:url(../images/logo_bg.png); 
+	background-position:200px 50px; 
+	background-repeat:no-repeat
+}
+.tableKenarCizgi {
+	background:url(../images/tire.gif); 
+	background-position:right; 
+	background-repeat:repeat-y
+}
+.ustBannerResim {
+	float: left;
+	height: 66px;
+	width: 500px;
+	background-image: url(../images/kom_banner/komisyon_ban1.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.ustBannerResim2 {
+	float: left;
+	height: 66px;
+	width: 500px;
+	background-image: url(../images/kom_banner/komisyon_ban2.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.ustBannerResim3 {
+	float: left;
+	height: 66px;
+	width: 500px;
+	background-image: url(../images/kom_banner/komisyon_ban3.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.ustBannerResim4 {
+	float: left;
+	height: 66px;
+	width: 500px;
+	background-image: url(../images/kom_banner/komisyon_ban4.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.ustBannerResim5 {
+	float: left;
+	height: 66px;
+	width: 500px;
+	background-image: url(../images/kom_banner/komisyon_ban5.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.ustBannerResim6 {
+	float: left;
+	height: 66px;
+	width: 500px;
+	background-image: url(../images/kom_banner/komisyon_ban6.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.ustBannerResim7 {
+	float: left;
+	height: 66px;
+	width: 500px;
+	background-image: url(../images/kom_banner/komisyon_ban7.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.ustBannerResim8 {
+	float: left;
+	height: 66px;
+	width: 500px;
+	background-image: url(../images/kom_banner/komisyon_ban8.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.ustBannerResim9 {
+	float: left;
+	height: 66px;
+	width: 500px;
+	background-image: url(../images/kom_banner/komisyon_ban9.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.ustBannerResimKefe {
+	float: left;
+	height: 66px;
+	width: 500px;
+	background-image: url(../images/kom_banner/komisyon_kefe.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.titleBack {
+	background-color: #d8d9bb;
+	background-image: url(../images/back_title_kosmisyon.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.titleBack2 {
+	background-color: #c4c7c8;
+	background-image: url(../images/back_title_kosmisyon2.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.titleBack3 {
+	background-color: #e3db93;
+	background-image: url(../images/back_title_kosmisyon3.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.titleBack4 {
+	background-color: #6cd4e1;
+	background-image: url(../images/back_title_kosmisyon4.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.titleBack5 {
+	background-color: #c8bdd2;
+	background-image: url(../images/back_title_kosmisyon5.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.titleBack6 {
+	background-color: #779dc5;
+	background-image: url(../images/back_title_kosmisyon6.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.titleBack7 {
+	background-color: #cfc79e;
+	background-image: url(../images/back_title_kosmisyon7.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.titleBack8 {
+	background-color: #bccfd1;
+	background-image: url(../images/back_title_kosmisyon8.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.titleBack9 {
+	background-color: #c5d2a0;
+	background-image: url(../images/back_title_kosmisyon9.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.titleBackKefe {
+	background-color: #c5d2a0;
+	background-image: url(../images/back_title_kosmisyonkefe.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.textLargeBack {
+	width: 73px;
+	float: right;
+	height: 13px;
+	background-image: url(../images/ustLargeF_back.gif);
+	background-repeat: no-repeat;
+	background-position: top;
+	margin-right: 20px;
+}
+.textLargeDiv {
+	width: 24px;
+	float: right;
+	height: 12px;
+	margin-right: 8px;
+	margin-top: 8px;
+}
+.textLarge {
+	width: 24px;
+	height: 12px;
+	position: absolute;
+	visibility: visible;
+}
+.textLarge2 {
+	width: 24px;
+	height: 12px;
+	position: absolute;
+	visibility: hidden;
+}
+.ortaAltMenuText {
+	width: 630px;
+	float: left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.ortaAltMenuAltCizgi {
+	width: 730px;
+	height: 24px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999999;
+	float: left;
+}
+.hizliDiv {
+	width: 210px;
+	float: left;
+	height: 24px;
+	padding-left: 14px;
+	margin-top: 4px;
+}
+.KomLogo {
+	height: 120px;
+	width: 210px;
+	padding: 10px;
+	text-align: center;
+}
+.ortaSagUst {
+	height: 140px;
+	width: 230px;
+	margin-top: 0px;
+	float: left;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999999;
+}
+.ortaSagAlt {
+	width: 230px;
+	margin-top: 0px;
+	float: left;
+}
+/*--- SAG SLIDE MENU ---*/
+.glossymenu{
+	margin: 5px 0;
+	padding: 0;
+	width: 230px; /*width of menu*/
+}
+
+.glossymenu a.menuitem{
+	color: #999999;
+	display: block;
+	width: auto;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCCCCC;
+	padding: 6px 0 7px 10px;
+	margin-top: 0px;
+}
+
+
+.glossymenu a.menuitem:visited, .glossymenu .menuitem:active{
+	color: #999999;
+}
+
+.glossymenu div.submenu{ /*DIV that contains each sub menu*/
+	background: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.glossymenu div.submenu ul{ /*UL of each sub menu*/
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+.glossymenu div.submenu ul li a{
+	display: block;
+	font: normal 11px Arial, Helvetica, sans-serif;
+	color: #000099;
+	text-decoration: none;
+	padding: 2px 0;
+	padding-left: 10px;
+}
+
+.glossymenu div.submenu ul li a:hover{
+	color: #990000;
+	text-decoration: none;
+}
+/*-- #SAG SLIDE MENU END --*/
+
+/* ---=FOOTER MENU BEGIN---*/
+#footermenunav{
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-bottom: 1px;
+	height: 20px;
+}
+#footermenunav lu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#footermenunav li {
+	display: inline;
+}
+#footermenunav a {
+	display: block;
+	float: left;
+	padding: 4px 8px 4px 8px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #999999;
+}
+#footermenunav a:hover {
+	color: #CCCCCC;
+}
+
+#footermenunav .current_page_item a {
+	color: #CCCCCC;
+}	
+
+/* ---#FOOTER MENU END---*/
+
+
+/* Yeni ana sayfa tasarım stilleri */
+.anasayfa_buyuk_kutu {
+	background:url(../komisyon/abuyum/images/ana_sayfa_bg_buyuk.jpg);
+	background-repeat:no-repeat;
+	border: 1px solid #e2e5f1;
+    display: block;
+    float: left;
+    margin-top: 10px;
+	width:690px;
+}
+
+.anasayfa_kucuk_kutu {
+	background:url(../komisyon/abuyum/images/ana_sayfa_bg_kucuk.jpg);
+	background-repeat:no-repeat;
+	border: 1px solid #e2e5f1;
+    float: left;
+    margin-top: 10px;
+	width:340px;
+	height:240px;
+}
+
+.ana_sayfa_komisyon_foto {
+	margin:5px;
+}
+
+.anasayfa_buyuk_kutu #fotograf_alani {
+    background-image: url("https://www.tbmm.gov.tr/images/mv_ozgecmis/fotograf_bg.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    height: 208px;
+    width: 166px;
+}
+.anasayfa_buyuk_kutu #fotograf_alani img {
+    height: 168px;
+    margin: 20px;
+    width: 126px;
+}
+.anasayfa_buyuk_kutu_baslik_kutu {
+    border-bottom: 1px solid #3D5B92;
+    height: 18px;
+    width: 500px;
+	margin-left:10px;
+	margin-top:5px;
+	float:left;
+}
+.anasayfa_buyuk_kutu_baslik {
+    color: #3D5B92;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+	display:block;
+	font-weight:bold;
+}
+.anasayfa_buyuk_kutu_metin {
+	color:#333;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:16px;
+	float:left;
+	width:500px;
+	margin-top:10px;
+}
+.anasayfa_kucuk_kutu_baslik_kutu {
+    border-bottom: 1px solid #3D5B92;
+    height: 18px;
+    width: 300px;
+	margin-left:10px;
+	margin-top:5px;
+	float:left;
+}
+.anasayfa_kucuk_kutu_baslik {
+    color: #3D5B92;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+	display:block;
+	font-weight:bold;
+}
+.anasayfa_kucuk_kutu_metin {
+	color:#333;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:16px;
+	float:left;
+	width:300px;
+	margin-top:10px;
+	padding:5px;
+	text-align:left;
+}
+
+.fotoCerceve {
+	border:#666 solid 2px;
+	padding:2px;
+	margin: 4px;
+	float:left;
+
+}
+.footerSag a {
+    color: #FFFFFF;
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    height: 35px;
+    padding-top: 10px;
+    text-align: right;
+    text-decoration: none;
+    width: 365px;
+}
+.footerSag a:hover {
+    color: #CCCCCC;
+}
+
+/* Yeni ana sayfa tasarım stilleri */.aa {
+	color: #F00;
+}
+.ana .orta table tr .tableKenarCizgi .anaORTAsayfa table tr td {
+	text-align: justify;
+}
+.ana .orta table tr .tableKenarCizgi .anaORTAsayfa table {
+	text-align: justify;
+}
+
+/* Eski Komisyon Stilleri */
+
+
+
+/* jQuery Font Size stilleri */ 
+#jfontsize-plus, #jfontsize-default, #jfontsize-minus {
+  font-weight: bold;
+  padding: 3px;
+  color: #000;
+  border: solid 1px #ccc;
+  font-size:12px !important;
+}
+
+#jfontsize-plus:hover, #jfontsize-default:hover, #jfontsize-minus:hover {
+  text-decoration: none;
+  background: #333;
+  color: #fff;
+  border: solid 1px #333;
+  font-size:12px !important;
+}
+
+
+/* jQuery Font Size stilleri */ 
+
+/* umut arastirma kom */
+.anasayfa_buyuk_kutu_umt #logo_alani {
+   	float: left;
+    height: 160px;
+    width: 160px;
+}
+.anasayfa_buyuk_kutu_umt {
+	background:url(../komisyon/abuyum/images/ana_sayfa_bg_buyuk.jpg);
+	background-repeat:no-repeat;
+	border: 1px solid #e2e5f1;
+    display: block;
+    float: left;
+    margin-top: 10px;
+	width:690px;
+}
+
+
+
+/* umut arastirma kom*/ 
+
+/* umut ulkeler  */
+.anasayfa_buyuk_kutu #bayrak_alani {
+    background-image: url("https://www.tbmm.gov.tr/images/flags/flag_bg.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    height: 126px;
+    width: 168px;
+}
+
+
+/* umut ulkeler */
